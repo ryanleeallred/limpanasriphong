@@ -1,0 +1,64 @@
+body {
+  background-image:url('/images/young_background.png');
+  background-color:#000000;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+nav {
+  width: 100%;
+  background: rgba(0,0,0,.2);
+  margin-top: 0;
+  height: 45px;
+  margin-bottom: 0;
+}
+nav h1 {
+  color: white;
+  margin-left: 43%;
+  float: left;
+  margin-top: 3%;
+}
+.mobile-button{
+  float: left;
+  margin-left: 25%;
+  margin-top: 2.2%;
+  background: none;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  border: 1px solid grey;
+  font-size: large;
+  margin-bottom: 0;
+  outline: none;
+}
+.menu-div{
+  float: left;
+  background: rgba(0,0,0,.2);
+  width: 150px;
+  height: 100px;
+  margin-left: 60%;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+.menu-div ul {
+  font-size: 6pt;
+  color: white;
+  list-style-type: none;
+  padding-left: 21%;;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  margin-top: 0;
+}
+.head-picture {
+  height: 100%;
+  width: 100%;
+  margin-top: 0;;
+  
+}

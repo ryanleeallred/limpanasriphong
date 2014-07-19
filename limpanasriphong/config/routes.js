@@ -34,7 +34,7 @@ module.exports.routes = {
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': 'StaticController',
     '/bracelets': 'StaticController',
-    '/about': 'StaticController',
+    '/mobile-test': 'StaticController',
     '/demo': 'StaticController',
     '/contact': 'StaticController',
     '/features': 'StaticController',
