@@ -1,0 +1,40 @@
+<nav>
+<<<<<<< Updated upstream
+  <div id="logo">
+  <h1>Logo</h1>
+  </div>
+<div id="main-menu">
+  <ul>
+   <li><h2>BRACELETS</h2></li>
+   <li><h2>NECKLACES</h2></li>
+   <li><h2>EARINGS</h2></li>
+   <li><h2>ROCKS&STUFF</h2></li>
+  </ul>
+=======
+  <div id="logo">
+  <h1>Logo Here</h1>
+  </div>
+<div id="main-menu">
+  <ul>
+   <li><h2>BRACELETS</h2></li>
+   <li><h2>NECKLACES</h2></li>
+   <li><h2>EARINGS</h2></li>
+   <li><h2>ROCKS&STUFF</h2></li>
+  </ul>
+>>>>>>> Stashed changes
+</div>
+
+<button class="mobile-button"><i class="fa fa-bars"></i></button>
+  
+  <div class="menu-div">
+    <ul>
+     <li><h2><a href="">BRACELETS</a></h2></li>
+     <li><h2><a href="">NECKLACES</a></h2></li>
+     <li><h2><a href="">EARINGS</a></h2></li>
+     <li><h2><a href="">ROCKS&STUFF</a></h2></li>
+    </ul>
+  </div>
+
+
+</nav>
+

@@ -1,3 +1,7 @@
+html {
+  	height: 100%;
+  	width: 100%;
+}
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	background-image:url('/images/young_background.png');
@@ -10,15 +14,14 @@ body {
 }
 
 nav {
-	float: left;
-	background-color:rgba(0,0,0,.8);
+	background-color:rgba(0,0,0,.99);
 	width: 300px;
 	height: 100%;
 	opacity: .5;
-	position: fixed;
 	height: 100%;
-	/*margin-top: -8px;*/
+	position: fixed;
 }
+/********* Styles for Nav *********/
 nav h1 {
 	color: white;
 	text-align: center;
@@ -33,16 +36,69 @@ li h2 {
 	text-align: left;
 	list-style-type: none;
 	margin-left: 20px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	font-size: 15pt;
 	font-weight: 0;
 	opacity: 1;
 }
-#main-image {
-	/*background-image:url('/images/rocks-bracelet-main.jpg');*/
+
+/********* End Styles for Nav *********/
+
+/*#width {
 	width: 100%;
-	z-index: 1000;
+	height: 10px;
 	background-color: red;
 	display: inline-block;
+}
+#height {
+	width: 10px;
+	height: 100%;
+	background-color: red;
+	display: inline-block;
+}*/
+/*#container {
+	width: 80%;
+	margin: 0 auto;
+}*/
+#image1 {
+	width: 100%;
+	/*display: inline-block;
+  	margin: 0px;*/
+  	float: left;
+}
+#image2 {
+	width: 60%;
+	/*display: inline-block;
+	margin: 0px;*/
+	float: left;
+}
+#image3 {
+	width: 40%;
+	/*display: inline-block;
+	margin: 0px;*/
+	float: left;
+}
+#image4 {
+	width: 41%;	
+/*	display: inline-block;
+	margin: 0px;*/
+	float: left;
+}
+#image5 {
+	width: 59%;
+/*	display: inline-block;
+	margin: 0px;*/
+	float: left;
+}
+img {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+img:hover {
+    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;
 }

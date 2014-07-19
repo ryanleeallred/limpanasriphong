@@ -2,9 +2,11 @@
 <html>
   <%-partial('partials/head')%>
   <body>
+  <div id="container">
     <%-partial('partials/nav')%>
     <!-- Include the view file for the current controller/route -->
     <%- body %>
+    
 
     <!--
 
@@ -56,5 +58,6 @@
       http://sailsjs.org/#!documentation/asset-management
 
     -->
+    </div>
     </body>
 </html>
